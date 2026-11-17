@@ -1,8 +1,68 @@
-<html>
-  <head>
-    <meta name="google-site-verification" content="XMdAApquWvfUfF5CYuIqDPlB7iYRP8B_oBKfu9Gf10Q" />
-  </head>
-  <body>
-    This is a personal integration tool. No personal data is collected or shared.
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 與 Google Cloud OAuth 同意畫面的 App Name 完全一致 -->
+    <title>jerry-dev</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { border-bottom: 1px solid #eaeaea; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { margin: 0 0 10px 0; color: #111; }
+        h2 { color: #222; margin-top: 30px; font-size: 1.25rem; }
+        .badge { display: inline-block; background: #eef2ff; color: #3730a3; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 600; margin-bottom: 8px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 12px; }
+        .notice { background: #f8fafc; border-left: 4px solid #3b82f6; padding: 15px; margin: 25px 0; font-size: 0.95rem; }
+        footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eaeaea; font-size: 0.9rem; color: #666; }
+        footer a { color: #2563eb; text-decoration: none; margin-right: 15px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="badge">Application Home Page</span>
+        <h1>jerry-dev</h1>
+        <p>An AI Agent integration tool designed to connect AI assistants with Google Workspace services for streamlined schedule and email management.</p>
+    </header>
+
+    <main>
+        <h2>1. Application Purpose (應用程式用途)</h2>
+        <p>
+            <strong>jerry-dev</strong> is a productivity integration application that enables AI agents to securely connect with a user's Google services upon explicit authorization. Through natural language instructions, users can empower their AI agent workflows to look up daily schedules, manage calendar events, and handle routine email tasks efficiently.
+        </p>
+
+        <h2>2. Google Services &amp; Data Usage (連接的 Google 服務與資料用途)</h2>
+        <p>
+            To deliver these AI agent capabilities, <strong>jerry-dev</strong> connects exclusively to the following Google services via Google OAuth 2.0:
+        </p>
+        <ul>
+            <li>
+                <strong>Google Calendar:</strong> Used by the AI agent to read upcoming events, check schedule availability, and create, update, or organize calendar events based on user commands.
+            </li>
+            <li>
+                <strong>Gmail:</strong> Used by the AI agent to search, read, draft, and manage email messages strictly upon the user's explicit request to assist with inbox workflows.
+            </li>
+        </ul>
+        <p>
+            All data retrieved through Google APIs is processed in real time solely to execute the user's requested AI agent tasks. <strong>jerry-dev</strong> does not sell user data, use it for advertising, or share it with unauthorized third parties.
+        </p>
+
+        <div class="notice">
+            <strong>Google API Services User Data Policy Compliance:</strong><br>
+            jerry-dev's use and transfer to any other app of information received from Google APIs will adhere to the 
+            <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, 
+            including the Limited Use requirements.
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://jerrymds.github.io/my-privacy/">Privacy Policy (隱私權政策)</a>
+            <span>Contact: <a href="mailto:[jerry.mds@gmail.com]">[jerry.mds@gmail.com]</a></span>
+        </p>
+        <p>&copy; 2026 jerry-dev. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
